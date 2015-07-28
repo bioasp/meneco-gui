@@ -249,7 +249,7 @@ class MenecoGui(QWidget):
         #btn3.setToolTip('This is a <b>QPushButton</b> widget')
         self.btn3.clicked.connect(self.loadTargetsDialog)    
         
-        self.btn4 = QPushButton('Load Repair DB')
+        self.btn4 = QPushButton('Load repair db')
         #btn4.setToolTip('This is a <b>QPushButton</b> widget')
         self.btn4.clicked.connect(self.loadRepairDBDialog)  
         
@@ -267,12 +267,12 @@ class MenecoGui(QWidget):
         self.lbl4.setPalette(palette)
         
         
-        self.btn5 = QPushButton('Check Producebility')
+        self.btn5 = QPushButton('Check producebility')
         #btn1.setToolTip('This is a <b>QPushButton</b> widget')
         self.btn5.clicked.connect(self.checkproducebilty)    
         self.btn5.setEnabled(False)
         
-        self.btn6 = QPushButton('Complete Network')
+        self.btn6 = QPushButton('Complete network')
         #btn2.setToolTip('This is a <b>QPushButton</b> widget')
         self.btn6.clicked.connect(self.complete)
         self.btn6.setEnabled(False)
@@ -314,7 +314,7 @@ class MenecoGui(QWidget):
 
         
         self.setGeometry(600, 600, 600, 500)
-        self.setWindowTitle('Meneco Gui')    
+        self.setWindowTitle('Meneco')    
         self.show()
         
         
