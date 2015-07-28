@@ -3,6 +3,8 @@ meneco-gui
 
 A graphical user interface for meneco
 
+.. image:: snapshot.png
+
 Installation
 ------------
 
