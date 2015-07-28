@@ -32,17 +32,17 @@ class install(_install):
         _install.run(self)
                          
 setup(cmdclass={'install': install},
-      name='menecogui',
+      name='meneco-gui',
       version='1.0',
       url='http://bioasp.github.io/meneco/',
       license='GPLv3+',
-      description='A graphical userinterface for meneco.',
+      description='A graphical user interface for meneco.',
       long_description=open('README.rst').read(),
       author='Sven Thiele',
       author_email='sthiele78@gmail.com',
       scripts = ['meneco-gui.py'],
       install_requires=[
         "meneco == 1.4.2"        
-       ,"PyQt4 == 4.11.1"
+       ,#"PyQt4 == 4.11.1"
       ]
 )
