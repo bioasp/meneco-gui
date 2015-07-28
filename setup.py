@@ -33,7 +33,7 @@ class install(_install):
                          
 setup(cmdclass={'install': install},
       name='meneco-gui',
-      version='1.0',
+      version='1.1',
       url='http://bioasp.github.io/meneco/',
       license='GPLv3+',
       description='A graphical user interface for meneco.',
