@@ -1,5 +1,5 @@
 # meneco-gui
-a simple gui for meneco
+A graphical userinterface for meneco
 
 Installation
 ------------
