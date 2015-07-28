@@ -8,7 +8,7 @@ Installation
 
 meneco-gui is implemented using PyQt. Unfortunately PyQt4 is not as easily installed via pip.
 So you first need to get your hands  dirty and install it manually.
-If your distribution does not provides PyQt4 packages you can find instructions for installing PyQt4 here_.
+If your distribution does not provide PyQt4 packages you can find instructions for installing PyQt4 here_.
 
 You can then install meneco-gui by running::
 
