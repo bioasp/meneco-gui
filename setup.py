@@ -16,33 +16,19 @@
 # along with ingranalyze.  If not, see <http://www.gnu.org/licenses/>.
 # -*- coding: utf-8 -*-
 from setuptools import setup
-import os
-import sys
-import platform
-import distutils
-import site
-import sysconfig
 
-from setuptools.command.install import install as _install
-
-
-
-class install(_install):
-    def run(self):
-        _install.run(self)
                          
-setup(cmdclass={'install': install},
-      name='meneco-gui',
-      version='1.1',
-      url='http://bioasp.github.io/meneco/',
-      license='GPLv3+',
-      description='A graphical user interface for meneco.',
-      long_description=open('README.rst').read(),
-      author='Sven Thiele',
-      author_email='sthiele78@gmail.com',
-      scripts = ['meneco-gui.py'],
-      install_requires=[
-        "meneco == 1.4.2"        
-       ,#"PyQt4 == 4.11.1"
-      ]
+setup(
+  name             = 'meneco-gui',
+  version          = '1.1',
+  url              = 'http://bioasp.github.io/meneco/',
+  license          = 'GPLv3+',
+  description      = 'A graphical user interface for meneco.',
+  long_description = open('README.rst').read(),
+  author           = 'Sven Thiele',
+  author_email     = 'sthiele78@gmail.com',
+  scripts          = ['meneco-gui.py'],
+  install_requires = ['meneco == 1.4.2'        
+                     ,#"PyQt4 == 4.11.1"
+                     ]
 )
